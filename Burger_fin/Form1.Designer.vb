@@ -22,100 +22,135 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Me.Bacon_Cheese = New System.Windows.Forms.Label()
+        Me.Black_Pepper = New System.Windows.Forms.Label()
+        Me.Bacon_Cheese_qty = New System.Windows.Forms.TextBox()
+        Me.Black_Pepper_qty = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Veggie_Premuim_but = New System.Windows.Forms.Button()
+        Me.Veggie_Premuim_qty = New System.Windows.Forms.TextBox()
+        Me.Veggie_Premuim = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.Baconnaise_Chicken_but = New System.Windows.Forms.Button()
+        Me.Beef_Shawarma_but = New System.Windows.Forms.Button()
+        Me.Beef_Shawarma = New System.Windows.Forms.Label()
+        Me.Baconnaise_Chicken_qty = New System.Windows.Forms.TextBox()
+        Me.Baconnaise_Chicken = New System.Windows.Forms.Label()
+        Me.Beef_Shawarma_qty = New System.Windows.Forms.TextBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Black_Pepper_but = New System.Windows.Forms.Button()
+        Me.Bacon_Cheese_but = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Cheesy_Burger_qty = New System.Windows.Forms.TextBox()
+        Me.Double_Cheesy_Burger_but = New System.Windows.Forms.Button()
+        Me.Double_Cheesy_Burger = New System.Windows.Forms.Label()
+        Me.Cheesy_Burger_but = New System.Windows.Forms.Button()
+        Me.Double_Cheesy_Burger_qty = New System.Windows.Forms.TextBox()
+        Me.Cheesy_Burger = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Minute_Burger_qty = New System.Windows.Forms.TextBox()
+        Me.Double_Minute_Burger_but = New System.Windows.Forms.Button()
+        Me.Double_Minute_Burger = New System.Windows.Forms.Label()
+        Me.Minute_Burger_but = New System.Windows.Forms.Button()
+        Me.Double_Minute_Burger_qty = New System.Windows.Forms.TextBox()
+        Me.Minute_Burger = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Chilicon_Cheese_qty = New System.Windows.Forms.TextBox()
+        Me.Cheesy_Dog_but = New System.Windows.Forms.Button()
+        Me.Cheesy_Dog = New System.Windows.Forms.Label()
+        Me.Chilicon_Cheese_but = New System.Windows.Forms.Button()
+        Me.Cheesy_Dog_qty = New System.Windows.Forms.TextBox()
+        Me.Chilicon_Cheese = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Double_Chicken_Time_qty = New System.Windows.Forms.TextBox()
+        Me.Chicken_Time_but = New System.Windows.Forms.Button()
+        Me.Chicken_Time = New System.Windows.Forms.Label()
+        Me.Double_Chicken_Time_but = New System.Windows.Forms.Button()
+        Me.Chicken_Time_qty = New System.Windows.Forms.TextBox()
+        Me.Double_Chicken_Time = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.PictureBox14 = New System.Windows.Forms.PictureBox()
         Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.PictureBox17 = New System.Windows.Forms.PictureBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Iced_Choco_qty = New System.Windows.Forms.TextBox()
+        Me.Hot_Choco_but = New System.Windows.Forms.Button()
+        Me.Hot_Choco = New System.Windows.Forms.Label()
+        Me.Krazy_Winter_but = New System.Windows.Forms.Button()
+        Me.Hot_Choco_qty = New System.Windows.Forms.TextBox()
+        Me.Krazy_Winter = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Calamantea_qty = New System.Windows.Forms.TextBox()
+        Me.Iced_Choco_but = New System.Windows.Forms.Button()
+        Me.Iced_Choco = New System.Windows.Forms.Label()
+        Me.Calamantea_but = New System.Windows.Forms.Button()
+        Me.Krazy_Winter_qty = New System.Windows.Forms.TextBox()
+        Me.Calamantea = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.PictureBox19 = New System.Windows.Forms.PictureBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Nachos_qty = New System.Windows.Forms.TextBox()
+        Me.Nachos_but = New System.Windows.Forms.Button()
+        Me.Nachos = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.PictureBox18 = New System.Windows.Forms.PictureBox()
         Me.PictureBox20 = New System.Windows.Forms.PictureBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Barkada_qty = New System.Windows.Forms.TextBox()
+        Me.Animeal_but = New System.Windows.Forms.Button()
+        Me.Animeal = New System.Windows.Forms.Label()
+        Me.Barkada_but = New System.Windows.Forms.Button()
+        Me.Animeal_qty = New System.Windows.Forms.TextBox()
+        Me.Barkada = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Proceed_but = New System.Windows.Forms.Button()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.sukli = New System.Windows.Forms.TextBox()
+        Me.bayad = New System.Windows.Forms.TextBox()
+        Me.tot_due = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.vat = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Panel28 = New System.Windows.Forms.Panel()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.discounted_amount = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.num_discounted = New System.Windows.Forms.TextBox()
+        Me.Panel27 = New System.Windows.Forms.Panel()
+        Me.dc2 = New System.Windows.Forms.RadioButton()
+        Me.dc1 = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.num_customer = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Costumer_name = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.sub_tot = New System.Windows.Forms.TextBox()
+        Me.Label86 = New System.Windows.Forms.Label()
+        Me.Label85 = New System.Windows.Forms.Label()
+        Me.Label84 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.Column_qty = New System.Windows.Forms.ColumnHeader()
+        Me.Column_Desc = New System.Windows.Forms.ColumnHeader()
+        Me.Column_Price = New System.Windows.Forms.ColumnHeader()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -143,71 +178,74 @@ Partial Class Form1
         Me.Panel7.SuspendLayout()
         CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel8.SuspendLayout()
+        Me.Panel28.SuspendLayout()
+        Me.Panel27.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label1
+        'Bacon_Cheese
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(161, 68)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 30)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "BACON CHEESE " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
+        Me.Bacon_Cheese.AutoSize = True
+        Me.Bacon_Cheese.BackColor = System.Drawing.Color.Transparent
+        Me.Bacon_Cheese.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Bacon_Cheese.Location = New System.Drawing.Point(161, 68)
+        Me.Bacon_Cheese.Name = "Bacon_Cheese"
+        Me.Bacon_Cheese.Size = New System.Drawing.Size(118, 30)
+        Me.Bacon_Cheese.TabIndex = 0
+        Me.Bacon_Cheese.Text = "BACON CHEESE " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
         '
-        'Label2
+        'Black_Pepper
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(161, 129)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(121, 30)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "BLACK PEPPER  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Black_Pepper.AutoSize = True
+        Me.Black_Pepper.BackColor = System.Drawing.Color.Transparent
+        Me.Black_Pepper.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Black_Pepper.Location = New System.Drawing.Point(161, 129)
+        Me.Black_Pepper.Name = "Black_Pepper"
+        Me.Black_Pepper.Size = New System.Drawing.Size(121, 30)
+        Me.Black_Pepper.TabIndex = 1
+        Me.Black_Pepper.Text = "BLACK PEPPER  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'TextBox1
+        'Bacon_Cheese_qty
         '
-        Me.TextBox1.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(282, 68)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox1.TabIndex = 2
+        Me.Bacon_Cheese_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Bacon_Cheese_qty.Location = New System.Drawing.Point(282, 68)
+        Me.Bacon_Cheese_qty.Name = "Bacon_Cheese_qty"
+        Me.Bacon_Cheese_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Bacon_Cheese_qty.TabIndex = 2
         '
-        'TextBox2
+        'Black_Pepper_qty
         '
-        Me.TextBox2.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(282, 135)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox2.TabIndex = 3
+        Me.Black_Pepper_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Black_Pepper_qty.Location = New System.Drawing.Point(282, 135)
+        Me.Black_Pepper_qty.Name = "Black_Pepper_qty"
+        Me.Black_Pepper_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Black_Pepper_qty.TabIndex = 3
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Panel1.Controls.Add(Me.PictureBox5)
-        Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.TextBox3)
-        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.Veggie_Premuim_but)
+        Me.Panel1.Controls.Add(Me.Veggie_Premuim_qty)
+        Me.Panel1.Controls.Add(Me.Veggie_Premuim)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.PictureBox4)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Controls.Add(Me.Label16)
-        Me.Panel1.Controls.Add(Me.TextBox14)
-        Me.Panel1.Controls.Add(Me.Label17)
-        Me.Panel1.Controls.Add(Me.TextBox15)
+        Me.Panel1.Controls.Add(Me.Baconnaise_Chicken_but)
+        Me.Panel1.Controls.Add(Me.Beef_Shawarma_but)
+        Me.Panel1.Controls.Add(Me.Beef_Shawarma)
+        Me.Panel1.Controls.Add(Me.Baconnaise_Chicken_qty)
+        Me.Panel1.Controls.Add(Me.Baconnaise_Chicken)
+        Me.Panel1.Controls.Add(Me.Beef_Shawarma_qty)
         Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label15)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.TextBox2)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.TextBox1)
-        Me.Panel1.Location = New System.Drawing.Point(83, 78)
+        Me.Panel1.Controls.Add(Me.Black_Pepper_but)
+        Me.Panel1.Controls.Add(Me.Bacon_Cheese_but)
+        Me.Panel1.Controls.Add(Me.Bacon_Cheese)
+        Me.Panel1.Controls.Add(Me.Black_Pepper_qty)
+        Me.Panel1.Controls.Add(Me.Black_Pepper)
+        Me.Panel1.Controls.Add(Me.Bacon_Cheese_qty)
+        Me.Panel1.Location = New System.Drawing.Point(83, 67)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(837, 268)
         Me.Panel1.TabIndex = 4
@@ -222,38 +260,38 @@ Partial Class Form1
         Me.PictureBox5.TabIndex = 22
         Me.PictureBox5.TabStop = False
         '
-        'Button5
+        'Veggie_Premuim_but
         '
-        Me.Button5.BackColor = System.Drawing.Color.Yellow
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button5.ForeColor = System.Drawing.Color.Orange
-        Me.Button5.Location = New System.Drawing.Point(555, 203)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(49, 33)
-        Me.Button5.TabIndex = 21
-        Me.Button5.Text = "73"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.Veggie_Premuim_but.BackColor = System.Drawing.Color.Yellow
+        Me.Veggie_Premuim_but.FlatAppearance.BorderSize = 0
+        Me.Veggie_Premuim_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Veggie_Premuim_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Veggie_Premuim_but.ForeColor = System.Drawing.Color.Orange
+        Me.Veggie_Premuim_but.Location = New System.Drawing.Point(555, 203)
+        Me.Veggie_Premuim_but.Name = "Veggie_Premuim_but"
+        Me.Veggie_Premuim_but.Size = New System.Drawing.Size(49, 33)
+        Me.Veggie_Premuim_but.TabIndex = 21
+        Me.Veggie_Premuim_but.Text = "73"
+        Me.Veggie_Premuim_but.UseVisualStyleBackColor = False
         '
-        'TextBox3
+        'Veggie_Premuim_qty
         '
-        Me.TextBox3.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox3.Location = New System.Drawing.Point(516, 212)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox3.TabIndex = 20
+        Me.Veggie_Premuim_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Veggie_Premuim_qty.Location = New System.Drawing.Point(516, 212)
+        Me.Veggie_Premuim_qty.Name = "Veggie_Premuim_qty"
+        Me.Veggie_Premuim_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Veggie_Premuim_qty.TabIndex = 20
         '
-        'Label3
+        'Veggie_Premuim
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(376, 206)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(134, 45)
-        Me.Label3.TabIndex = 19
-        Me.Label3.Text = "50/50 VEGGIE " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PREMIUM CHICKEN" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
+        Me.Veggie_Premuim.AutoSize = True
+        Me.Veggie_Premuim.BackColor = System.Drawing.Color.Transparent
+        Me.Veggie_Premuim.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Veggie_Premuim.Location = New System.Drawing.Point(376, 206)
+        Me.Veggie_Premuim.Name = "Veggie_Premuim"
+        Me.Veggie_Premuim.Size = New System.Drawing.Size(134, 45)
+        Me.Veggie_Premuim.TabIndex = 19
+        Me.Veggie_Premuim.Text = "50/50 VEGGIE " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PREMIUM CHICKEN" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
         '
         'PictureBox3
         '
@@ -275,71 +313,71 @@ Partial Class Form1
         Me.PictureBox4.TabIndex = 16
         Me.PictureBox4.TabStop = False
         '
-        'Button3
+        'Baconnaise_Chicken_but
         '
-        Me.Button3.BackColor = System.Drawing.Color.Yellow
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button3.ForeColor = System.Drawing.Color.Orange
-        Me.Button3.Location = New System.Drawing.Point(756, 126)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(49, 33)
-        Me.Button3.TabIndex = 15
-        Me.Button3.Text = "80"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Baconnaise_Chicken_but.BackColor = System.Drawing.Color.Yellow
+        Me.Baconnaise_Chicken_but.FlatAppearance.BorderSize = 0
+        Me.Baconnaise_Chicken_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Baconnaise_Chicken_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Baconnaise_Chicken_but.ForeColor = System.Drawing.Color.Orange
+        Me.Baconnaise_Chicken_but.Location = New System.Drawing.Point(756, 126)
+        Me.Baconnaise_Chicken_but.Name = "Baconnaise_Chicken_but"
+        Me.Baconnaise_Chicken_but.Size = New System.Drawing.Size(49, 33)
+        Me.Baconnaise_Chicken_but.TabIndex = 15
+        Me.Baconnaise_Chicken_but.Text = "80"
+        Me.Baconnaise_Chicken_but.UseVisualStyleBackColor = False
         '
-        'Button4
+        'Beef_Shawarma_but
         '
-        Me.Button4.BackColor = System.Drawing.Color.Yellow
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.ForeColor = System.Drawing.Color.Orange
-        Me.Button4.Location = New System.Drawing.Point(756, 59)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(49, 33)
-        Me.Button4.TabIndex = 14
-        Me.Button4.Text = "81"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.Beef_Shawarma_but.BackColor = System.Drawing.Color.Yellow
+        Me.Beef_Shawarma_but.FlatAppearance.BorderSize = 0
+        Me.Beef_Shawarma_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Beef_Shawarma_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Beef_Shawarma_but.ForeColor = System.Drawing.Color.Orange
+        Me.Beef_Shawarma_but.Location = New System.Drawing.Point(756, 59)
+        Me.Beef_Shawarma_but.Name = "Beef_Shawarma_but"
+        Me.Beef_Shawarma_but.Size = New System.Drawing.Size(49, 33)
+        Me.Beef_Shawarma_but.TabIndex = 14
+        Me.Beef_Shawarma_but.Text = "81"
+        Me.Beef_Shawarma_but.UseVisualStyleBackColor = False
         '
-        'Label16
+        'Beef_Shawarma
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.BackColor = System.Drawing.Color.Transparent
-        Me.Label16.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label16.Location = New System.Drawing.Point(565, 68)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(127, 30)
-        Me.Label16.TabIndex = 10
-        Me.Label16.Text = "BEEF SHAWARMA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
+        Me.Beef_Shawarma.AutoSize = True
+        Me.Beef_Shawarma.BackColor = System.Drawing.Color.Transparent
+        Me.Beef_Shawarma.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Beef_Shawarma.Location = New System.Drawing.Point(565, 68)
+        Me.Beef_Shawarma.Name = "Beef_Shawarma"
+        Me.Beef_Shawarma.Size = New System.Drawing.Size(127, 30)
+        Me.Beef_Shawarma.TabIndex = 10
+        Me.Beef_Shawarma.Text = "BEEF SHAWARMA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
         '
-        'TextBox14
+        'Baconnaise_Chicken_qty
         '
-        Me.TextBox14.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox14.Location = New System.Drawing.Point(717, 135)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox14.TabIndex = 13
+        Me.Baconnaise_Chicken_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Baconnaise_Chicken_qty.Location = New System.Drawing.Point(717, 135)
+        Me.Baconnaise_Chicken_qty.Name = "Baconnaise_Chicken_qty"
+        Me.Baconnaise_Chicken_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Baconnaise_Chicken_qty.TabIndex = 13
         '
-        'Label17
+        'Baconnaise_Chicken
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.BackColor = System.Drawing.Color.Transparent
-        Me.Label17.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label17.Location = New System.Drawing.Point(565, 129)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(126, 30)
-        Me.Label17.TabIndex = 11
-        Me.Label17.Text = "BACONNAISE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CHICKEN BURGER"
+        Me.Baconnaise_Chicken.AutoSize = True
+        Me.Baconnaise_Chicken.BackColor = System.Drawing.Color.Transparent
+        Me.Baconnaise_Chicken.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Baconnaise_Chicken.Location = New System.Drawing.Point(565, 129)
+        Me.Baconnaise_Chicken.Name = "Baconnaise_Chicken"
+        Me.Baconnaise_Chicken.Size = New System.Drawing.Size(126, 30)
+        Me.Baconnaise_Chicken.TabIndex = 11
+        Me.Baconnaise_Chicken.Text = "BACONNAISE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CHICKEN BURGER"
         '
-        'TextBox15
+        'Beef_Shawarma_qty
         '
-        Me.TextBox15.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox15.Location = New System.Drawing.Point(717, 68)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox15.TabIndex = 12
+        Me.Beef_Shawarma_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Beef_Shawarma_qty.Location = New System.Drawing.Point(717, 68)
+        Me.Beef_Shawarma_qty.Name = "Beef_Shawarma_qty"
+        Me.Beef_Shawarma_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Beef_Shawarma_qty.TabIndex = 12
         '
         'PictureBox2
         '
@@ -373,33 +411,33 @@ Partial Class Form1
         Me.Label15.TabIndex = 7
         Me.Label15.Text = "BIGTIME"
         '
-        'Button2
+        'Black_Pepper_but
         '
-        Me.Button2.BackColor = System.Drawing.Color.Yellow
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button2.ForeColor = System.Drawing.Color.Orange
-        Me.Button2.Location = New System.Drawing.Point(321, 126)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(49, 33)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "77"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Black_Pepper_but.BackColor = System.Drawing.Color.Yellow
+        Me.Black_Pepper_but.FlatAppearance.BorderSize = 0
+        Me.Black_Pepper_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Black_Pepper_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Black_Pepper_but.ForeColor = System.Drawing.Color.Orange
+        Me.Black_Pepper_but.Location = New System.Drawing.Point(321, 126)
+        Me.Black_Pepper_but.Name = "Black_Pepper_but"
+        Me.Black_Pepper_but.Size = New System.Drawing.Size(49, 33)
+        Me.Black_Pepper_but.TabIndex = 6
+        Me.Black_Pepper_but.Text = "77"
+        Me.Black_Pepper_but.UseVisualStyleBackColor = False
         '
-        'Button1
+        'Bacon_Cheese_but
         '
-        Me.Button1.BackColor = System.Drawing.Color.Yellow
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.ForeColor = System.Drawing.Color.Orange
-        Me.Button1.Location = New System.Drawing.Point(321, 61)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(49, 33)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "84"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Bacon_Cheese_but.BackColor = System.Drawing.Color.Yellow
+        Me.Bacon_Cheese_but.FlatAppearance.BorderSize = 0
+        Me.Bacon_Cheese_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Bacon_Cheese_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Bacon_Cheese_but.ForeColor = System.Drawing.Color.Orange
+        Me.Bacon_Cheese_but.Location = New System.Drawing.Point(321, 61)
+        Me.Bacon_Cheese_but.Name = "Bacon_Cheese_but"
+        Me.Bacon_Cheese_but.Size = New System.Drawing.Size(49, 33)
+        Me.Bacon_Cheese_but.TabIndex = 4
+        Me.Bacon_Cheese_but.Text = "84"
+        Me.Bacon_Cheese_but.UseVisualStyleBackColor = False
         '
         'Panel2
         '
@@ -407,21 +445,21 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.Label8)
         Me.Panel2.Controls.Add(Me.PictureBox8)
         Me.Panel2.Controls.Add(Me.PictureBox9)
-        Me.Panel2.Controls.Add(Me.TextBox6)
-        Me.Panel2.Controls.Add(Me.Button8)
-        Me.Panel2.Controls.Add(Me.Label6)
-        Me.Panel2.Controls.Add(Me.Button9)
-        Me.Panel2.Controls.Add(Me.TextBox7)
-        Me.Panel2.Controls.Add(Me.Label7)
+        Me.Panel2.Controls.Add(Me.Cheesy_Burger_qty)
+        Me.Panel2.Controls.Add(Me.Double_Cheesy_Burger_but)
+        Me.Panel2.Controls.Add(Me.Double_Cheesy_Burger)
+        Me.Panel2.Controls.Add(Me.Cheesy_Burger_but)
+        Me.Panel2.Controls.Add(Me.Double_Cheesy_Burger_qty)
+        Me.Panel2.Controls.Add(Me.Cheesy_Burger)
         Me.Panel2.Controls.Add(Me.PictureBox6)
         Me.Panel2.Controls.Add(Me.PictureBox7)
-        Me.Panel2.Controls.Add(Me.TextBox5)
-        Me.Panel2.Controls.Add(Me.Button6)
-        Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Controls.Add(Me.Button7)
-        Me.Panel2.Controls.Add(Me.TextBox4)
-        Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Location = New System.Drawing.Point(83, 540)
+        Me.Panel2.Controls.Add(Me.Minute_Burger_qty)
+        Me.Panel2.Controls.Add(Me.Double_Minute_Burger_but)
+        Me.Panel2.Controls.Add(Me.Double_Minute_Burger)
+        Me.Panel2.Controls.Add(Me.Minute_Burger_but)
+        Me.Panel2.Controls.Add(Me.Double_Minute_Burger_qty)
+        Me.Panel2.Controls.Add(Me.Minute_Burger)
+        Me.Panel2.Location = New System.Drawing.Point(83, 529)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(837, 177)
         Me.Panel2.TabIndex = 7
@@ -458,71 +496,71 @@ Partial Class Form1
         Me.PictureBox9.TabIndex = 37
         Me.PictureBox9.TabStop = False
         '
-        'TextBox6
+        'Cheesy_Burger_qty
         '
-        Me.TextBox6.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox6.Location = New System.Drawing.Point(717, 59)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox6.TabIndex = 33
+        Me.Cheesy_Burger_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Cheesy_Burger_qty.Location = New System.Drawing.Point(717, 59)
+        Me.Cheesy_Burger_qty.Name = "Cheesy_Burger_qty"
+        Me.Cheesy_Burger_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Cheesy_Burger_qty.TabIndex = 33
         '
-        'Button8
+        'Double_Cheesy_Burger_but
         '
-        Me.Button8.BackColor = System.Drawing.Color.Yellow
-        Me.Button8.FlatAppearance.BorderSize = 0
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button8.ForeColor = System.Drawing.Color.Orange
-        Me.Button8.Location = New System.Drawing.Point(756, 113)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(49, 33)
-        Me.Button8.TabIndex = 36
-        Me.Button8.Text = "69"
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.Double_Cheesy_Burger_but.BackColor = System.Drawing.Color.Yellow
+        Me.Double_Cheesy_Burger_but.FlatAppearance.BorderSize = 0
+        Me.Double_Cheesy_Burger_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Double_Cheesy_Burger_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Cheesy_Burger_but.ForeColor = System.Drawing.Color.Orange
+        Me.Double_Cheesy_Burger_but.Location = New System.Drawing.Point(756, 113)
+        Me.Double_Cheesy_Burger_but.Name = "Double_Cheesy_Burger_but"
+        Me.Double_Cheesy_Burger_but.Size = New System.Drawing.Size(49, 33)
+        Me.Double_Cheesy_Burger_but.TabIndex = 36
+        Me.Double_Cheesy_Burger_but.Text = "69"
+        Me.Double_Cheesy_Burger_but.UseVisualStyleBackColor = False
         '
-        'Label6
+        'Double_Cheesy_Burger
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New System.Drawing.Point(583, 120)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(119, 30)
-        Me.Label6.TabIndex = 32
-        Me.Label6.Text = "DOUBLE CHEESY" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
+        Me.Double_Cheesy_Burger.AutoSize = True
+        Me.Double_Cheesy_Burger.BackColor = System.Drawing.Color.Transparent
+        Me.Double_Cheesy_Burger.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Cheesy_Burger.Location = New System.Drawing.Point(583, 120)
+        Me.Double_Cheesy_Burger.Name = "Double_Cheesy_Burger"
+        Me.Double_Cheesy_Burger.Size = New System.Drawing.Size(119, 30)
+        Me.Double_Cheesy_Burger.TabIndex = 32
+        Me.Double_Cheesy_Burger.Text = "DOUBLE CHEESY" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
         '
-        'Button9
+        'Cheesy_Burger_but
         '
-        Me.Button9.BackColor = System.Drawing.Color.Yellow
-        Me.Button9.FlatAppearance.BorderSize = 0
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button9.ForeColor = System.Drawing.Color.Orange
-        Me.Button9.Location = New System.Drawing.Point(756, 52)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(49, 33)
-        Me.Button9.TabIndex = 35
-        Me.Button9.Text = "46"
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.Cheesy_Burger_but.BackColor = System.Drawing.Color.Yellow
+        Me.Cheesy_Burger_but.FlatAppearance.BorderSize = 0
+        Me.Cheesy_Burger_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Cheesy_Burger_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Cheesy_Burger_but.ForeColor = System.Drawing.Color.Orange
+        Me.Cheesy_Burger_but.Location = New System.Drawing.Point(756, 52)
+        Me.Cheesy_Burger_but.Name = "Cheesy_Burger_but"
+        Me.Cheesy_Burger_but.Size = New System.Drawing.Size(49, 33)
+        Me.Cheesy_Burger_but.TabIndex = 35
+        Me.Cheesy_Burger_but.Text = "46"
+        Me.Cheesy_Burger_but.UseVisualStyleBackColor = False
         '
-        'TextBox7
+        'Double_Cheesy_Burger_qty
         '
-        Me.TextBox7.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox7.Location = New System.Drawing.Point(717, 119)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox7.TabIndex = 34
+        Me.Double_Cheesy_Burger_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Cheesy_Burger_qty.Location = New System.Drawing.Point(717, 119)
+        Me.Double_Cheesy_Burger_qty.Name = "Double_Cheesy_Burger_qty"
+        Me.Double_Cheesy_Burger_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Double_Cheesy_Burger_qty.TabIndex = 34
         '
-        'Label7
+        'Cheesy_Burger
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New System.Drawing.Point(583, 59)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(120, 15)
-        Me.Label7.TabIndex = 31
-        Me.Label7.Text = "CHEESY BURGER"
+        Me.Cheesy_Burger.AutoSize = True
+        Me.Cheesy_Burger.BackColor = System.Drawing.Color.Transparent
+        Me.Cheesy_Burger.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Cheesy_Burger.Location = New System.Drawing.Point(583, 59)
+        Me.Cheesy_Burger.Name = "Cheesy_Burger"
+        Me.Cheesy_Burger.Size = New System.Drawing.Size(120, 15)
+        Me.Cheesy_Burger.TabIndex = 31
+        Me.Cheesy_Burger.Text = "CHEESY BURGER"
         '
         'PictureBox6
         '
@@ -544,71 +582,71 @@ Partial Class Form1
         Me.PictureBox7.TabIndex = 29
         Me.PictureBox7.TabStop = False
         '
-        'TextBox5
+        'Minute_Burger_qty
         '
-        Me.TextBox5.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox5.Location = New System.Drawing.Point(292, 61)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox5.TabIndex = 25
+        Me.Minute_Burger_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Minute_Burger_qty.Location = New System.Drawing.Point(292, 61)
+        Me.Minute_Burger_qty.Name = "Minute_Burger_qty"
+        Me.Minute_Burger_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Minute_Burger_qty.TabIndex = 25
         '
-        'Button6
+        'Double_Minute_Burger_but
         '
-        Me.Button6.BackColor = System.Drawing.Color.Yellow
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button6.ForeColor = System.Drawing.Color.Orange
-        Me.Button6.Location = New System.Drawing.Point(331, 113)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(49, 33)
-        Me.Button6.TabIndex = 28
-        Me.Button6.Text = "55"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.Double_Minute_Burger_but.BackColor = System.Drawing.Color.Yellow
+        Me.Double_Minute_Burger_but.FlatAppearance.BorderSize = 0
+        Me.Double_Minute_Burger_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Double_Minute_Burger_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Minute_Burger_but.ForeColor = System.Drawing.Color.Orange
+        Me.Double_Minute_Burger_but.Location = New System.Drawing.Point(331, 113)
+        Me.Double_Minute_Burger_but.Name = "Double_Minute_Burger_but"
+        Me.Double_Minute_Burger_but.Size = New System.Drawing.Size(49, 33)
+        Me.Double_Minute_Burger_but.TabIndex = 28
+        Me.Double_Minute_Burger_but.Text = "55"
+        Me.Double_Minute_Burger_but.UseVisualStyleBackColor = False
         '
-        'Label5
+        'Double_Minute_Burger
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(161, 122)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(117, 30)
-        Me.Label5.TabIndex = 24
-        Me.Label5.Text = "DOUBLE MINUTE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
+        Me.Double_Minute_Burger.AutoSize = True
+        Me.Double_Minute_Burger.BackColor = System.Drawing.Color.Transparent
+        Me.Double_Minute_Burger.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Minute_Burger.Location = New System.Drawing.Point(161, 122)
+        Me.Double_Minute_Burger.Name = "Double_Minute_Burger"
+        Me.Double_Minute_Burger.Size = New System.Drawing.Size(117, 30)
+        Me.Double_Minute_Burger.TabIndex = 24
+        Me.Double_Minute_Burger.Text = "DOUBLE MINUTE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BURGER"
         '
-        'Button7
+        'Minute_Burger_but
         '
-        Me.Button7.BackColor = System.Drawing.Color.Yellow
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button7.ForeColor = System.Drawing.Color.Orange
-        Me.Button7.Location = New System.Drawing.Point(331, 52)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(49, 33)
-        Me.Button7.TabIndex = 27
-        Me.Button7.Text = "39"
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.Minute_Burger_but.BackColor = System.Drawing.Color.Yellow
+        Me.Minute_Burger_but.FlatAppearance.BorderSize = 0
+        Me.Minute_Burger_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Minute_Burger_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Minute_Burger_but.ForeColor = System.Drawing.Color.Orange
+        Me.Minute_Burger_but.Location = New System.Drawing.Point(331, 52)
+        Me.Minute_Burger_but.Name = "Minute_Burger_but"
+        Me.Minute_Burger_but.Size = New System.Drawing.Size(49, 33)
+        Me.Minute_Burger_but.TabIndex = 27
+        Me.Minute_Burger_but.Text = "39"
+        Me.Minute_Burger_but.UseVisualStyleBackColor = False
         '
-        'TextBox4
+        'Double_Minute_Burger_qty
         '
-        Me.TextBox4.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox4.Location = New System.Drawing.Point(292, 119)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox4.TabIndex = 26
+        Me.Double_Minute_Burger_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Minute_Burger_qty.Location = New System.Drawing.Point(292, 119)
+        Me.Double_Minute_Burger_qty.Name = "Double_Minute_Burger_qty"
+        Me.Double_Minute_Burger_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Double_Minute_Burger_qty.TabIndex = 26
         '
-        'Label4
+        'Minute_Burger
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(161, 61)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(118, 15)
-        Me.Label4.TabIndex = 23
-        Me.Label4.Text = "MINUTE BURGER"
+        Me.Minute_Burger.AutoSize = True
+        Me.Minute_Burger.BackColor = System.Drawing.Color.Transparent
+        Me.Minute_Burger.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Minute_Burger.Location = New System.Drawing.Point(161, 61)
+        Me.Minute_Burger.Name = "Minute_Burger"
+        Me.Minute_Burger.Size = New System.Drawing.Size(118, 15)
+        Me.Minute_Burger.TabIndex = 23
+        Me.Minute_Burger.Text = "MINUTE BURGER"
         '
         'Panel3
         '
@@ -616,13 +654,13 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.Label9)
         Me.Panel3.Controls.Add(Me.PictureBox12)
         Me.Panel3.Controls.Add(Me.PictureBox13)
-        Me.Panel3.Controls.Add(Me.TextBox10)
-        Me.Panel3.Controls.Add(Me.Button12)
-        Me.Panel3.Controls.Add(Me.Label12)
-        Me.Panel3.Controls.Add(Me.Button13)
-        Me.Panel3.Controls.Add(Me.TextBox11)
-        Me.Panel3.Controls.Add(Me.Label13)
-        Me.Panel3.Location = New System.Drawing.Point(505, 352)
+        Me.Panel3.Controls.Add(Me.Chilicon_Cheese_qty)
+        Me.Panel3.Controls.Add(Me.Cheesy_Dog_but)
+        Me.Panel3.Controls.Add(Me.Cheesy_Dog)
+        Me.Panel3.Controls.Add(Me.Chilicon_Cheese_but)
+        Me.Panel3.Controls.Add(Me.Cheesy_Dog_qty)
+        Me.Panel3.Controls.Add(Me.Chilicon_Cheese)
+        Me.Panel3.Location = New System.Drawing.Point(505, 341)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(415, 182)
         Me.Panel3.TabIndex = 39
@@ -659,71 +697,71 @@ Partial Class Form1
         Me.PictureBox13.TabIndex = 29
         Me.PictureBox13.TabStop = False
         '
-        'TextBox10
+        'Chilicon_Cheese_qty
         '
-        Me.TextBox10.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox10.Location = New System.Drawing.Point(295, 56)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox10.TabIndex = 25
+        Me.Chilicon_Cheese_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Chilicon_Cheese_qty.Location = New System.Drawing.Point(295, 56)
+        Me.Chilicon_Cheese_qty.Name = "Chilicon_Cheese_qty"
+        Me.Chilicon_Cheese_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Chilicon_Cheese_qty.TabIndex = 25
         '
-        'Button12
+        'Cheesy_Dog_but
         '
-        Me.Button12.BackColor = System.Drawing.Color.Yellow
-        Me.Button12.FlatAppearance.BorderSize = 0
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button12.ForeColor = System.Drawing.Color.Orange
-        Me.Button12.Location = New System.Drawing.Point(334, 119)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(49, 33)
-        Me.Button12.TabIndex = 28
-        Me.Button12.Text = "42"
-        Me.Button12.UseVisualStyleBackColor = False
+        Me.Cheesy_Dog_but.BackColor = System.Drawing.Color.Yellow
+        Me.Cheesy_Dog_but.FlatAppearance.BorderSize = 0
+        Me.Cheesy_Dog_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Cheesy_Dog_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Cheesy_Dog_but.ForeColor = System.Drawing.Color.Orange
+        Me.Cheesy_Dog_but.Location = New System.Drawing.Point(334, 119)
+        Me.Cheesy_Dog_but.Name = "Cheesy_Dog_but"
+        Me.Cheesy_Dog_but.Size = New System.Drawing.Size(49, 33)
+        Me.Cheesy_Dog_but.TabIndex = 28
+        Me.Cheesy_Dog_but.Text = "42"
+        Me.Cheesy_Dog_but.UseVisualStyleBackColor = False
         '
-        'Label12
+        'Cheesy_Dog
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.BackColor = System.Drawing.Color.Transparent
-        Me.Label12.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label12.Location = New System.Drawing.Point(161, 128)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(93, 15)
-        Me.Label12.TabIndex = 24
-        Me.Label12.Text = "CHEESY DOG" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Cheesy_Dog.AutoSize = True
+        Me.Cheesy_Dog.BackColor = System.Drawing.Color.Transparent
+        Me.Cheesy_Dog.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Cheesy_Dog.Location = New System.Drawing.Point(161, 128)
+        Me.Cheesy_Dog.Name = "Cheesy_Dog"
+        Me.Cheesy_Dog.Size = New System.Drawing.Size(93, 15)
+        Me.Cheesy_Dog.TabIndex = 24
+        Me.Cheesy_Dog.Text = "CHEESY DOG" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Button13
+        'Chilicon_Cheese_but
         '
-        Me.Button13.BackColor = System.Drawing.Color.Yellow
-        Me.Button13.FlatAppearance.BorderSize = 0
-        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button13.ForeColor = System.Drawing.Color.Orange
-        Me.Button13.Location = New System.Drawing.Point(334, 47)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(49, 33)
-        Me.Button13.TabIndex = 27
-        Me.Button13.Text = "79"
-        Me.Button13.UseVisualStyleBackColor = False
+        Me.Chilicon_Cheese_but.BackColor = System.Drawing.Color.Yellow
+        Me.Chilicon_Cheese_but.FlatAppearance.BorderSize = 0
+        Me.Chilicon_Cheese_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Chilicon_Cheese_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Chilicon_Cheese_but.ForeColor = System.Drawing.Color.Orange
+        Me.Chilicon_Cheese_but.Location = New System.Drawing.Point(334, 47)
+        Me.Chilicon_Cheese_but.Name = "Chilicon_Cheese_but"
+        Me.Chilicon_Cheese_but.Size = New System.Drawing.Size(49, 33)
+        Me.Chilicon_Cheese_but.TabIndex = 27
+        Me.Chilicon_Cheese_but.Text = "79"
+        Me.Chilicon_Cheese_but.UseVisualStyleBackColor = False
         '
-        'TextBox11
+        'Cheesy_Dog_qty
         '
-        Me.TextBox11.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox11.Location = New System.Drawing.Point(295, 128)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox11.TabIndex = 26
+        Me.Cheesy_Dog_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Cheesy_Dog_qty.Location = New System.Drawing.Point(295, 128)
+        Me.Cheesy_Dog_qty.Name = "Cheesy_Dog_qty"
+        Me.Cheesy_Dog_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Cheesy_Dog_qty.TabIndex = 26
         '
-        'Label13
+        'Chilicon_Cheese
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label13.Location = New System.Drawing.Point(161, 50)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(121, 30)
-        Me.Label13.TabIndex = 23
-        Me.Label13.Text = "CHILI CON " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CHEESE FRANKS"
+        Me.Chilicon_Cheese.AutoSize = True
+        Me.Chilicon_Cheese.BackColor = System.Drawing.Color.Transparent
+        Me.Chilicon_Cheese.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Chilicon_Cheese.Location = New System.Drawing.Point(161, 50)
+        Me.Chilicon_Cheese.Name = "Chilicon_Cheese"
+        Me.Chilicon_Cheese.Size = New System.Drawing.Size(121, 30)
+        Me.Chilicon_Cheese.TabIndex = 23
+        Me.Chilicon_Cheese.Text = "CHILI CON " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CHEESE FRANKS"
         '
         'Panel4
         '
@@ -731,13 +769,13 @@ Partial Class Form1
         Me.Panel4.Controls.Add(Me.Label10)
         Me.Panel4.Controls.Add(Me.PictureBox10)
         Me.Panel4.Controls.Add(Me.PictureBox11)
-        Me.Panel4.Controls.Add(Me.TextBox8)
-        Me.Panel4.Controls.Add(Me.Button10)
-        Me.Panel4.Controls.Add(Me.Label11)
-        Me.Panel4.Controls.Add(Me.Button11)
-        Me.Panel4.Controls.Add(Me.TextBox9)
-        Me.Panel4.Controls.Add(Me.Label14)
-        Me.Panel4.Location = New System.Drawing.Point(83, 352)
+        Me.Panel4.Controls.Add(Me.Double_Chicken_Time_qty)
+        Me.Panel4.Controls.Add(Me.Chicken_Time_but)
+        Me.Panel4.Controls.Add(Me.Chicken_Time)
+        Me.Panel4.Controls.Add(Me.Double_Chicken_Time_but)
+        Me.Panel4.Controls.Add(Me.Chicken_Time_qty)
+        Me.Panel4.Controls.Add(Me.Double_Chicken_Time)
+        Me.Panel4.Location = New System.Drawing.Point(83, 341)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(416, 182)
         Me.Panel4.TabIndex = 40
@@ -750,9 +788,9 @@ Partial Class Form1
         Me.Label10.ForeColor = System.Drawing.Color.Orange
         Me.Label10.Location = New System.Drawing.Point(179, 11)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(181, 24)
+        Me.Label10.Size = New System.Drawing.Size(123, 24)
         Me.Label10.TabIndex = 23
-        Me.Label10.Text = "CHICKEN TIME"
+        Me.Label10.Text = "CHICKEN "
         '
         'PictureBox10
         '
@@ -774,71 +812,71 @@ Partial Class Form1
         Me.PictureBox11.TabIndex = 29
         Me.PictureBox11.TabStop = False
         '
-        'TextBox8
+        'Double_Chicken_Time_qty
         '
-        Me.TextBox8.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox8.Location = New System.Drawing.Point(292, 61)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox8.TabIndex = 25
+        Me.Double_Chicken_Time_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Chicken_Time_qty.Location = New System.Drawing.Point(292, 61)
+        Me.Double_Chicken_Time_qty.Name = "Double_Chicken_Time_qty"
+        Me.Double_Chicken_Time_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Double_Chicken_Time_qty.TabIndex = 25
         '
-        'Button10
+        'Chicken_Time_but
         '
-        Me.Button10.BackColor = System.Drawing.Color.Yellow
-        Me.Button10.FlatAppearance.BorderSize = 0
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button10.ForeColor = System.Drawing.Color.Orange
-        Me.Button10.Location = New System.Drawing.Point(331, 114)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(49, 33)
-        Me.Button10.TabIndex = 28
-        Me.Button10.Text = "43"
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.Chicken_Time_but.BackColor = System.Drawing.Color.Yellow
+        Me.Chicken_Time_but.FlatAppearance.BorderSize = 0
+        Me.Chicken_Time_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Chicken_Time_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Chicken_Time_but.ForeColor = System.Drawing.Color.Orange
+        Me.Chicken_Time_but.Location = New System.Drawing.Point(331, 114)
+        Me.Chicken_Time_but.Name = "Chicken_Time_but"
+        Me.Chicken_Time_but.Size = New System.Drawing.Size(49, 33)
+        Me.Chicken_Time_but.TabIndex = 28
+        Me.Chicken_Time_but.Text = "43"
+        Me.Chicken_Time_but.UseVisualStyleBackColor = False
         '
-        'Label11
+        'Chicken_Time
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label11.Location = New System.Drawing.Point(161, 122)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(105, 15)
-        Me.Label11.TabIndex = 24
-        Me.Label11.Text = "CHICKEN TIME" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Chicken_Time.AutoSize = True
+        Me.Chicken_Time.BackColor = System.Drawing.Color.Transparent
+        Me.Chicken_Time.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Chicken_Time.Location = New System.Drawing.Point(161, 122)
+        Me.Chicken_Time.Name = "Chicken_Time"
+        Me.Chicken_Time.Size = New System.Drawing.Size(105, 15)
+        Me.Chicken_Time.TabIndex = 24
+        Me.Chicken_Time.Text = "CHICKEN TIME" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Button11
+        'Double_Chicken_Time_but
         '
-        Me.Button11.BackColor = System.Drawing.Color.Yellow
-        Me.Button11.FlatAppearance.BorderSize = 0
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button11.ForeColor = System.Drawing.Color.Orange
-        Me.Button11.Location = New System.Drawing.Point(331, 50)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(49, 33)
-        Me.Button11.TabIndex = 27
-        Me.Button11.Text = "59"
-        Me.Button11.UseVisualStyleBackColor = False
+        Me.Double_Chicken_Time_but.BackColor = System.Drawing.Color.Yellow
+        Me.Double_Chicken_Time_but.FlatAppearance.BorderSize = 0
+        Me.Double_Chicken_Time_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Double_Chicken_Time_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Chicken_Time_but.ForeColor = System.Drawing.Color.Orange
+        Me.Double_Chicken_Time_but.Location = New System.Drawing.Point(331, 50)
+        Me.Double_Chicken_Time_but.Name = "Double_Chicken_Time_but"
+        Me.Double_Chicken_Time_but.Size = New System.Drawing.Size(49, 33)
+        Me.Double_Chicken_Time_but.TabIndex = 27
+        Me.Double_Chicken_Time_but.Text = "59"
+        Me.Double_Chicken_Time_but.UseVisualStyleBackColor = False
         '
-        'TextBox9
+        'Chicken_Time_qty
         '
-        Me.TextBox9.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox9.Location = New System.Drawing.Point(292, 122)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox9.TabIndex = 26
+        Me.Chicken_Time_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Chicken_Time_qty.Location = New System.Drawing.Point(292, 122)
+        Me.Chicken_Time_qty.Name = "Chicken_Time_qty"
+        Me.Chicken_Time_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Chicken_Time_qty.TabIndex = 26
         '
-        'Label14
+        'Double_Chicken_Time
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.BackColor = System.Drawing.Color.Transparent
-        Me.Label14.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label14.Location = New System.Drawing.Point(161, 61)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(125, 30)
-        Me.Label14.TabIndex = 23
-        Me.Label14.Text = "DOUBLE CHICKEN" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "TIME"
+        Me.Double_Chicken_Time.AutoSize = True
+        Me.Double_Chicken_Time.BackColor = System.Drawing.Color.Transparent
+        Me.Double_Chicken_Time.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Double_Chicken_Time.Location = New System.Drawing.Point(161, 61)
+        Me.Double_Chicken_Time.Name = "Double_Chicken_Time"
+        Me.Double_Chicken_Time.Size = New System.Drawing.Size(125, 30)
+        Me.Double_Chicken_Time.TabIndex = 23
+        Me.Double_Chicken_Time.Text = "DOUBLE CHICKEN" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "TIME"
         '
         'Panel5
         '
@@ -846,23 +884,23 @@ Partial Class Form1
         Me.Panel5.Controls.Add(Me.PictureBox14)
         Me.Panel5.Controls.Add(Me.PictureBox16)
         Me.Panel5.Controls.Add(Me.PictureBox17)
-        Me.Panel5.Controls.Add(Me.TextBox16)
-        Me.Panel5.Controls.Add(Me.Button16)
-        Me.Panel5.Controls.Add(Me.Label21)
-        Me.Panel5.Controls.Add(Me.Button17)
-        Me.Panel5.Controls.Add(Me.TextBox17)
-        Me.Panel5.Controls.Add(Me.Label22)
+        Me.Panel5.Controls.Add(Me.Iced_Choco_qty)
+        Me.Panel5.Controls.Add(Me.Hot_Choco_but)
+        Me.Panel5.Controls.Add(Me.Hot_Choco)
+        Me.Panel5.Controls.Add(Me.Krazy_Winter_but)
+        Me.Panel5.Controls.Add(Me.Hot_Choco_qty)
+        Me.Panel5.Controls.Add(Me.Krazy_Winter)
         Me.Panel5.Controls.Add(Me.Label18)
         Me.Panel5.Controls.Add(Me.PictureBox15)
-        Me.Panel5.Controls.Add(Me.TextBox12)
-        Me.Panel5.Controls.Add(Me.Button14)
-        Me.Panel5.Controls.Add(Me.Label19)
-        Me.Panel5.Controls.Add(Me.Button15)
-        Me.Panel5.Controls.Add(Me.TextBox13)
-        Me.Panel5.Controls.Add(Me.Label20)
-        Me.Panel5.Location = New System.Drawing.Point(83, 722)
+        Me.Panel5.Controls.Add(Me.Calamantea_qty)
+        Me.Panel5.Controls.Add(Me.Iced_Choco_but)
+        Me.Panel5.Controls.Add(Me.Iced_Choco)
+        Me.Panel5.Controls.Add(Me.Calamantea_but)
+        Me.Panel5.Controls.Add(Me.Krazy_Winter_qty)
+        Me.Panel5.Controls.Add(Me.Calamantea)
+        Me.Panel5.Location = New System.Drawing.Point(83, 712)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(416, 330)
+        Me.Panel5.Size = New System.Drawing.Size(416, 314)
         Me.Panel5.TabIndex = 41
         '
         'PictureBox14
@@ -895,71 +933,71 @@ Partial Class Form1
         Me.PictureBox17.TabIndex = 37
         Me.PictureBox17.TabStop = False
         '
-        'TextBox16
+        'Iced_Choco_qty
         '
-        Me.TextBox16.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox16.Location = New System.Drawing.Point(292, 181)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox16.TabIndex = 33
+        Me.Iced_Choco_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Iced_Choco_qty.Location = New System.Drawing.Point(292, 191)
+        Me.Iced_Choco_qty.Name = "Iced_Choco_qty"
+        Me.Iced_Choco_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Iced_Choco_qty.TabIndex = 33
         '
-        'Button16
+        'Hot_Choco_but
         '
-        Me.Button16.BackColor = System.Drawing.Color.Yellow
-        Me.Button16.FlatAppearance.BorderSize = 0
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button16.ForeColor = System.Drawing.Color.Orange
-        Me.Button16.Location = New System.Drawing.Point(331, 254)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(49, 33)
-        Me.Button16.TabIndex = 36
-        Me.Button16.Text = "43"
-        Me.Button16.UseVisualStyleBackColor = False
+        Me.Hot_Choco_but.BackColor = System.Drawing.Color.Yellow
+        Me.Hot_Choco_but.FlatAppearance.BorderSize = 0
+        Me.Hot_Choco_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Hot_Choco_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Hot_Choco_but.ForeColor = System.Drawing.Color.Orange
+        Me.Hot_Choco_but.Location = New System.Drawing.Point(331, 254)
+        Me.Hot_Choco_but.Name = "Hot_Choco_but"
+        Me.Hot_Choco_but.Size = New System.Drawing.Size(49, 33)
+        Me.Hot_Choco_but.TabIndex = 36
+        Me.Hot_Choco_but.Text = "43"
+        Me.Hot_Choco_but.UseVisualStyleBackColor = False
         '
-        'Label21
+        'Hot_Choco
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.BackColor = System.Drawing.Color.Transparent
-        Me.Label21.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label21.Location = New System.Drawing.Point(164, 267)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(86, 15)
-        Me.Label21.TabIndex = 32
-        Me.Label21.Text = "HOT CHOCO"
+        Me.Hot_Choco.AutoSize = True
+        Me.Hot_Choco.BackColor = System.Drawing.Color.Transparent
+        Me.Hot_Choco.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Hot_Choco.Location = New System.Drawing.Point(164, 267)
+        Me.Hot_Choco.Name = "Hot_Choco"
+        Me.Hot_Choco.Size = New System.Drawing.Size(86, 15)
+        Me.Hot_Choco.TabIndex = 32
+        Me.Hot_Choco.Text = "HOT CHOCO"
         '
-        'Button17
+        'Krazy_Winter_but
         '
-        Me.Button17.BackColor = System.Drawing.Color.Yellow
-        Me.Button17.FlatAppearance.BorderSize = 0
-        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button17.ForeColor = System.Drawing.Color.Orange
-        Me.Button17.Location = New System.Drawing.Point(331, 110)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(49, 33)
-        Me.Button17.TabIndex = 35
-        Me.Button17.Text = "59"
-        Me.Button17.UseVisualStyleBackColor = False
+        Me.Krazy_Winter_but.BackColor = System.Drawing.Color.Yellow
+        Me.Krazy_Winter_but.FlatAppearance.BorderSize = 0
+        Me.Krazy_Winter_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Krazy_Winter_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Krazy_Winter_but.ForeColor = System.Drawing.Color.Orange
+        Me.Krazy_Winter_but.Location = New System.Drawing.Point(331, 110)
+        Me.Krazy_Winter_but.Name = "Krazy_Winter_but"
+        Me.Krazy_Winter_but.Size = New System.Drawing.Size(49, 33)
+        Me.Krazy_Winter_but.TabIndex = 35
+        Me.Krazy_Winter_but.Text = "59"
+        Me.Krazy_Winter_but.UseVisualStyleBackColor = False
         '
-        'TextBox17
+        'Hot_Choco_qty
         '
-        Me.TextBox17.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox17.Location = New System.Drawing.Point(292, 263)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox17.TabIndex = 34
+        Me.Hot_Choco_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Hot_Choco_qty.Location = New System.Drawing.Point(292, 263)
+        Me.Hot_Choco_qty.Name = "Hot_Choco_qty"
+        Me.Hot_Choco_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Hot_Choco_qty.TabIndex = 34
         '
-        'Label22
+        'Krazy_Winter
         '
-        Me.Label22.AutoSize = True
-        Me.Label22.BackColor = System.Drawing.Color.Transparent
-        Me.Label22.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label22.Location = New System.Drawing.Point(161, 119)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(106, 30)
-        Me.Label22.TabIndex = 31
-        Me.Label22.Text = "KRAZY " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WINTERMELON"
+        Me.Krazy_Winter.AutoSize = True
+        Me.Krazy_Winter.BackColor = System.Drawing.Color.Transparent
+        Me.Krazy_Winter.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Krazy_Winter.Location = New System.Drawing.Point(161, 119)
+        Me.Krazy_Winter.Name = "Krazy_Winter"
+        Me.Krazy_Winter.Size = New System.Drawing.Size(106, 30)
+        Me.Krazy_Winter.TabIndex = 31
+        Me.Krazy_Winter.Text = "KRAZY " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "WINTERMELON"
         '
         'Label18
         '
@@ -983,81 +1021,81 @@ Partial Class Form1
         Me.PictureBox15.TabIndex = 29
         Me.PictureBox15.TabStop = False
         '
-        'TextBox12
+        'Calamantea_qty
         '
-        Me.TextBox12.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox12.Location = New System.Drawing.Point(292, 61)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox12.TabIndex = 25
+        Me.Calamantea_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Calamantea_qty.Location = New System.Drawing.Point(292, 61)
+        Me.Calamantea_qty.Name = "Calamantea_qty"
+        Me.Calamantea_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Calamantea_qty.TabIndex = 25
         '
-        'Button14
+        'Iced_Choco_but
         '
-        Me.Button14.BackColor = System.Drawing.Color.Yellow
-        Me.Button14.FlatAppearance.BorderSize = 0
-        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button14.ForeColor = System.Drawing.Color.Orange
-        Me.Button14.Location = New System.Drawing.Point(331, 176)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(49, 33)
-        Me.Button14.TabIndex = 28
-        Me.Button14.Text = "43"
-        Me.Button14.UseVisualStyleBackColor = False
+        Me.Iced_Choco_but.BackColor = System.Drawing.Color.Yellow
+        Me.Iced_Choco_but.FlatAppearance.BorderSize = 0
+        Me.Iced_Choco_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Iced_Choco_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Iced_Choco_but.ForeColor = System.Drawing.Color.Orange
+        Me.Iced_Choco_but.Location = New System.Drawing.Point(331, 183)
+        Me.Iced_Choco_but.Name = "Iced_Choco_but"
+        Me.Iced_Choco_but.Size = New System.Drawing.Size(49, 33)
+        Me.Iced_Choco_but.TabIndex = 28
+        Me.Iced_Choco_but.Text = "43"
+        Me.Iced_Choco_but.UseVisualStyleBackColor = False
         '
-        'Label19
+        'Iced_Choco
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label19.Location = New System.Drawing.Point(161, 194)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(89, 15)
-        Me.Label19.TabIndex = 24
-        Me.Label19.Text = "ICED CHOCO"
+        Me.Iced_Choco.AutoSize = True
+        Me.Iced_Choco.BackColor = System.Drawing.Color.Transparent
+        Me.Iced_Choco.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Iced_Choco.Location = New System.Drawing.Point(161, 195)
+        Me.Iced_Choco.Name = "Iced_Choco"
+        Me.Iced_Choco.Size = New System.Drawing.Size(89, 15)
+        Me.Iced_Choco.TabIndex = 24
+        Me.Iced_Choco.Text = "ICED CHOCO"
         '
-        'Button15
+        'Calamantea_but
         '
-        Me.Button15.BackColor = System.Drawing.Color.Yellow
-        Me.Button15.FlatAppearance.BorderSize = 0
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button15.ForeColor = System.Drawing.Color.Orange
-        Me.Button15.Location = New System.Drawing.Point(331, 52)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(49, 33)
-        Me.Button15.TabIndex = 27
-        Me.Button15.Text = "59"
-        Me.Button15.UseVisualStyleBackColor = False
+        Me.Calamantea_but.BackColor = System.Drawing.Color.Yellow
+        Me.Calamantea_but.FlatAppearance.BorderSize = 0
+        Me.Calamantea_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Calamantea_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Calamantea_but.ForeColor = System.Drawing.Color.Orange
+        Me.Calamantea_but.Location = New System.Drawing.Point(331, 52)
+        Me.Calamantea_but.Name = "Calamantea_but"
+        Me.Calamantea_but.Size = New System.Drawing.Size(49, 33)
+        Me.Calamantea_but.TabIndex = 27
+        Me.Calamantea_but.Text = "59"
+        Me.Calamantea_but.UseVisualStyleBackColor = False
         '
-        'TextBox13
+        'Krazy_Winter_qty
         '
-        Me.TextBox13.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox13.Location = New System.Drawing.Point(292, 119)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox13.TabIndex = 26
+        Me.Krazy_Winter_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Krazy_Winter_qty.Location = New System.Drawing.Point(292, 119)
+        Me.Krazy_Winter_qty.Name = "Krazy_Winter_qty"
+        Me.Krazy_Winter_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Krazy_Winter_qty.TabIndex = 26
         '
-        'Label20
+        'Calamantea
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.BackColor = System.Drawing.Color.Transparent
-        Me.Label20.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label20.Location = New System.Drawing.Point(161, 61)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(103, 15)
-        Me.Label20.TabIndex = 23
-        Me.Label20.Text = "CALAMANTEA"
+        Me.Calamantea.AutoSize = True
+        Me.Calamantea.BackColor = System.Drawing.Color.Transparent
+        Me.Calamantea.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Calamantea.Location = New System.Drawing.Point(161, 61)
+        Me.Calamantea.Name = "Calamantea"
+        Me.Calamantea.Size = New System.Drawing.Size(103, 15)
+        Me.Calamantea.TabIndex = 23
+        Me.Calamantea.Text = "CALAMANTEA"
         '
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Panel6.Controls.Add(Me.Label23)
         Me.Panel6.Controls.Add(Me.PictureBox19)
-        Me.Panel6.Controls.Add(Me.TextBox18)
-        Me.Panel6.Controls.Add(Me.Button19)
-        Me.Panel6.Controls.Add(Me.Label25)
-        Me.Panel6.Location = New System.Drawing.Point(505, 723)
+        Me.Panel6.Controls.Add(Me.Nachos_qty)
+        Me.Panel6.Controls.Add(Me.Nachos_but)
+        Me.Panel6.Controls.Add(Me.Nachos)
+        Me.Panel6.Location = New System.Drawing.Point(505, 712)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(415, 111)
         Me.Panel6.TabIndex = 40
@@ -1084,38 +1122,38 @@ Partial Class Form1
         Me.PictureBox19.TabIndex = 29
         Me.PictureBox19.TabStop = False
         '
-        'TextBox18
+        'Nachos_qty
         '
-        Me.TextBox18.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox18.Location = New System.Drawing.Point(295, 54)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox18.TabIndex = 25
+        Me.Nachos_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Nachos_qty.Location = New System.Drawing.Point(295, 54)
+        Me.Nachos_qty.Name = "Nachos_qty"
+        Me.Nachos_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Nachos_qty.TabIndex = 25
         '
-        'Button19
+        'Nachos_but
         '
-        Me.Button19.BackColor = System.Drawing.Color.Yellow
-        Me.Button19.FlatAppearance.BorderSize = 0
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button19.ForeColor = System.Drawing.Color.Orange
-        Me.Button19.Location = New System.Drawing.Point(334, 47)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(49, 33)
-        Me.Button19.TabIndex = 27
-        Me.Button19.Text = "49"
-        Me.Button19.UseVisualStyleBackColor = False
+        Me.Nachos_but.BackColor = System.Drawing.Color.Yellow
+        Me.Nachos_but.FlatAppearance.BorderSize = 0
+        Me.Nachos_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Nachos_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Nachos_but.ForeColor = System.Drawing.Color.Orange
+        Me.Nachos_but.Location = New System.Drawing.Point(334, 47)
+        Me.Nachos_but.Name = "Nachos_but"
+        Me.Nachos_but.Size = New System.Drawing.Size(49, 33)
+        Me.Nachos_but.TabIndex = 27
+        Me.Nachos_but.Text = "49"
+        Me.Nachos_but.UseVisualStyleBackColor = False
         '
-        'Label25
+        'Nachos
         '
-        Me.Label25.AutoSize = True
-        Me.Label25.BackColor = System.Drawing.Color.Transparent
-        Me.Label25.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label25.Location = New System.Drawing.Point(161, 50)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(113, 30)
-        Me.Label25.TabIndex = 23
-        Me.Label25.Text = "CHEESY CARNE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "NACHOS"
+        Me.Nachos.AutoSize = True
+        Me.Nachos.BackColor = System.Drawing.Color.Transparent
+        Me.Nachos.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Nachos.Location = New System.Drawing.Point(161, 50)
+        Me.Nachos.Name = "Nachos"
+        Me.Nachos.Size = New System.Drawing.Size(113, 30)
+        Me.Nachos.TabIndex = 23
+        Me.Nachos.Text = "CHEESY CARNE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "NACHOS"
         '
         'Panel7
         '
@@ -1123,15 +1161,15 @@ Partial Class Form1
         Me.Panel7.Controls.Add(Me.Label24)
         Me.Panel7.Controls.Add(Me.PictureBox18)
         Me.Panel7.Controls.Add(Me.PictureBox20)
-        Me.Panel7.Controls.Add(Me.TextBox19)
-        Me.Panel7.Controls.Add(Me.Button18)
-        Me.Panel7.Controls.Add(Me.Label26)
-        Me.Panel7.Controls.Add(Me.Button20)
-        Me.Panel7.Controls.Add(Me.TextBox20)
-        Me.Panel7.Controls.Add(Me.Label27)
-        Me.Panel7.Location = New System.Drawing.Point(505, 840)
+        Me.Panel7.Controls.Add(Me.Barkada_qty)
+        Me.Panel7.Controls.Add(Me.Animeal_but)
+        Me.Panel7.Controls.Add(Me.Animeal)
+        Me.Panel7.Controls.Add(Me.Barkada_but)
+        Me.Panel7.Controls.Add(Me.Animeal_qty)
+        Me.Panel7.Controls.Add(Me.Barkada)
+        Me.Panel7.Location = New System.Drawing.Point(505, 829)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(415, 212)
+        Me.Panel7.Size = New System.Drawing.Size(415, 197)
         Me.Panel7.TabIndex = 40
         '
         'Label24
@@ -1149,7 +1187,7 @@ Partial Class Form1
         'PictureBox18
         '
         Me.PictureBox18.Image = Global.Burger_fin.My.Resources.Resources.ANIMEAL_DISH_PHOTO__100KB
-        Me.PictureBox18.Location = New System.Drawing.Point(42, 114)
+        Me.PictureBox18.Location = New System.Drawing.Point(42, 110)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(113, 83)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -1166,71 +1204,441 @@ Partial Class Form1
         Me.PictureBox20.TabIndex = 29
         Me.PictureBox20.TabStop = False
         '
-        'TextBox19
+        'Barkada_qty
         '
-        Me.TextBox19.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox19.Location = New System.Drawing.Point(295, 69)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox19.TabIndex = 25
+        Me.Barkada_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Barkada_qty.Location = New System.Drawing.Point(295, 69)
+        Me.Barkada_qty.Name = "Barkada_qty"
+        Me.Barkada_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Barkada_qty.TabIndex = 25
         '
-        'Button18
+        'Animeal_but
         '
-        Me.Button18.BackColor = System.Drawing.Color.Yellow
-        Me.Button18.FlatAppearance.BorderSize = 0
-        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button18.ForeColor = System.Drawing.Color.Orange
-        Me.Button18.Location = New System.Drawing.Point(334, 123)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(49, 33)
-        Me.Button18.TabIndex = 28
-        Me.Button18.Text = "234"
-        Me.Button18.UseVisualStyleBackColor = False
+        Me.Animeal_but.BackColor = System.Drawing.Color.Yellow
+        Me.Animeal_but.FlatAppearance.BorderSize = 0
+        Me.Animeal_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Animeal_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Animeal_but.ForeColor = System.Drawing.Color.Orange
+        Me.Animeal_but.Location = New System.Drawing.Point(334, 126)
+        Me.Animeal_but.Name = "Animeal_but"
+        Me.Animeal_but.Size = New System.Drawing.Size(49, 33)
+        Me.Animeal_but.TabIndex = 28
+        Me.Animeal_but.Text = "234"
+        Me.Animeal_but.UseVisualStyleBackColor = False
         '
-        'Label26
+        'Animeal
         '
-        Me.Label26.AutoSize = True
-        Me.Label26.BackColor = System.Drawing.Color.Transparent
-        Me.Label26.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label26.Location = New System.Drawing.Point(161, 141)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(128, 15)
-        Me.Label26.TabIndex = 24
-        Me.Label26.Text = "ANIMEAL BUNDLE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Animeal.AutoSize = True
+        Me.Animeal.BackColor = System.Drawing.Color.Transparent
+        Me.Animeal.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Animeal.Location = New System.Drawing.Point(161, 141)
+        Me.Animeal.Name = "Animeal"
+        Me.Animeal.Size = New System.Drawing.Size(128, 15)
+        Me.Animeal.TabIndex = 24
+        Me.Animeal.Text = "ANIMEAL BUNDLE" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Button20
+        'Barkada_but
         '
-        Me.Button20.BackColor = System.Drawing.Color.Yellow
-        Me.Button20.FlatAppearance.BorderSize = 0
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button20.ForeColor = System.Drawing.Color.Orange
-        Me.Button20.Location = New System.Drawing.Point(334, 60)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(49, 33)
-        Me.Button20.TabIndex = 27
-        Me.Button20.Text = "198"
-        Me.Button20.UseVisualStyleBackColor = False
+        Me.Barkada_but.BackColor = System.Drawing.Color.Yellow
+        Me.Barkada_but.FlatAppearance.BorderSize = 0
+        Me.Barkada_but.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Barkada_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Barkada_but.ForeColor = System.Drawing.Color.Orange
+        Me.Barkada_but.Location = New System.Drawing.Point(334, 60)
+        Me.Barkada_but.Name = "Barkada_but"
+        Me.Barkada_but.Size = New System.Drawing.Size(49, 33)
+        Me.Barkada_but.TabIndex = 27
+        Me.Barkada_but.Text = "198"
+        Me.Barkada_but.UseVisualStyleBackColor = False
         '
-        'TextBox20
+        'Animeal_qty
         '
-        Me.TextBox20.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox20.Location = New System.Drawing.Point(295, 135)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(33, 19)
-        Me.TextBox20.TabIndex = 26
+        Me.Animeal_qty.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Animeal_qty.Location = New System.Drawing.Point(295, 135)
+        Me.Animeal_qty.Name = "Animeal_qty"
+        Me.Animeal_qty.Size = New System.Drawing.Size(33, 19)
+        Me.Animeal_qty.TabIndex = 26
         '
-        'Label27
+        'Barkada
         '
-        Me.Label27.AutoSize = True
-        Me.Label27.BackColor = System.Drawing.Color.Transparent
-        Me.Label27.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label27.Location = New System.Drawing.Point(161, 63)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(124, 30)
-        Me.Label27.TabIndex = 23
-        Me.Label27.Text = "DOUBLE-CHEESY" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BARKADA"
+        Me.Barkada.AutoSize = True
+        Me.Barkada.BackColor = System.Drawing.Color.Transparent
+        Me.Barkada.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Barkada.Location = New System.Drawing.Point(161, 63)
+        Me.Barkada.Name = "Barkada"
+        Me.Barkada.Size = New System.Drawing.Size(124, 30)
+        Me.Barkada.TabIndex = 23
+        Me.Barkada.Text = "DOUBLE-CHEESY" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "BARKADA"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.Color.Transparent
+        Me.Label28.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label28.ForeColor = System.Drawing.Color.SaddleBrown
+        Me.Label28.Location = New System.Drawing.Point(372, 18)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(288, 35)
+        Me.Label28.TabIndex = 23
+        Me.Label28.Text = "MINUTE BURGER"
+        '
+        'Proceed_but
+        '
+        Me.Proceed_but.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Proceed_but.FlatAppearance.BorderSize = 0
+        Me.Proceed_but.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Proceed_but.ForeColor = System.Drawing.Color.Orange
+        Me.Proceed_but.Location = New System.Drawing.Point(131, 306)
+        Me.Proceed_but.Name = "Proceed_but"
+        Me.Proceed_but.Size = New System.Drawing.Size(91, 23)
+        Me.Proceed_but.TabIndex = 31
+        Me.Proceed_but.Text = "PROCEED"
+        Me.Proceed_but.UseVisualStyleBackColor = False
+        '
+        'Panel8
+        '
+        Me.Panel8.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Panel8.Controls.Add(Me.Button2)
+        Me.Panel8.Controls.Add(Me.sukli)
+        Me.Panel8.Controls.Add(Me.bayad)
+        Me.Panel8.Controls.Add(Me.tot_due)
+        Me.Panel8.Controls.Add(Me.Label3)
+        Me.Panel8.Controls.Add(Me.vat)
+        Me.Panel8.Controls.Add(Me.Label13)
+        Me.Panel8.Controls.Add(Me.Panel28)
+        Me.Panel8.Controls.Add(Me.Panel27)
+        Me.Panel8.Controls.Add(Me.Label4)
+        Me.Panel8.Controls.Add(Me.num_customer)
+        Me.Panel8.Controls.Add(Me.Label5)
+        Me.Panel8.Controls.Add(Me.Costumer_name)
+        Me.Panel8.Controls.Add(Me.Label6)
+        Me.Panel8.Controls.Add(Me.sub_tot)
+        Me.Panel8.Controls.Add(Me.Label86)
+        Me.Panel8.Controls.Add(Me.Label85)
+        Me.Panel8.Controls.Add(Me.Label84)
+        Me.Panel8.Controls.Add(Me.Button1)
+        Me.Panel8.Controls.Add(Me.Label2)
+        Me.Panel8.Controls.Add(Me.Proceed_but)
+        Me.Panel8.Controls.Add(Me.Label1)
+        Me.Panel8.Controls.Add(Me.ListView1)
+        Me.Panel8.Location = New System.Drawing.Point(964, 217)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(465, 647)
+        Me.Panel8.TabIndex = 42
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button2.ForeColor = System.Drawing.Color.Orange
+        Me.Button2.Location = New System.Drawing.Point(201, 591)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(91, 23)
+        Me.Button2.TabIndex = 269
+        Me.Button2.Text = "DONE"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'sukli
+        '
+        Me.sukli.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.sukli.Location = New System.Drawing.Point(126, 561)
+        Me.sukli.Name = "sukli"
+        Me.sukli.Size = New System.Drawing.Size(116, 18)
+        Me.sukli.TabIndex = 263
+        '
+        'bayad
+        '
+        Me.bayad.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.bayad.Location = New System.Drawing.Point(126, 535)
+        Me.bayad.Name = "bayad"
+        Me.bayad.Size = New System.Drawing.Size(116, 18)
+        Me.bayad.TabIndex = 268
+        '
+        'tot_due
+        '
+        Me.tot_due.Enabled = False
+        Me.tot_due.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.tot_due.Location = New System.Drawing.Point(126, 509)
+        Me.tot_due.Name = "tot_due"
+        Me.tot_due.Size = New System.Drawing.Size(116, 18)
+        Me.tot_due.TabIndex = 267
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.Location = New System.Drawing.Point(35, 509)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(77, 16)
+        Me.Label3.TabIndex = 266
+        Me.Label3.Text = "Total Due"
+        '
+        'vat
+        '
+        Me.vat.Enabled = False
+        Me.vat.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.vat.Location = New System.Drawing.Point(126, 483)
+        Me.vat.Name = "vat"
+        Me.vat.Size = New System.Drawing.Size(116, 18)
+        Me.vat.TabIndex = 265
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label13.Location = New System.Drawing.Point(35, 483)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(68, 16)
+        Me.Label13.TabIndex = 264
+        Me.Label13.Text = "Vat 12%"
+        '
+        'Panel28
+        '
+        Me.Panel28.BackColor = System.Drawing.Color.Transparent
+        Me.Panel28.Controls.Add(Me.Label12)
+        Me.Panel28.Controls.Add(Me.discounted_amount)
+        Me.Panel28.Controls.Add(Me.Label11)
+        Me.Panel28.Controls.Add(Me.num_discounted)
+        Me.Panel28.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Panel28.Location = New System.Drawing.Point(248, 466)
+        Me.Panel28.Name = "Panel28"
+        Me.Panel28.Size = New System.Drawing.Size(145, 86)
+        Me.Panel28.TabIndex = 262
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
+        Me.Label12.Font = New System.Drawing.Font("HGPGothicE", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label12.Location = New System.Drawing.Point(8, 43)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(98, 11)
+        Me.Label12.TabIndex = 197
+        Me.Label12.Text = "Discounted amount"
+        '
+        'discounted_amount
+        '
+        Me.discounted_amount.Enabled = False
+        Me.discounted_amount.Font = New System.Drawing.Font("HGPGothicE", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.discounted_amount.Location = New System.Drawing.Point(8, 57)
+        Me.discounted_amount.Name = "discounted_amount"
+        Me.discounted_amount.Size = New System.Drawing.Size(55, 20)
+        Me.discounted_amount.TabIndex = 198
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("HGPGothicE", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label11.Location = New System.Drawing.Point(8, 6)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(91, 11)
+        Me.Label11.TabIndex = 195
+        Me.Label11.Text = "No. Of Discounted"
+        '
+        'num_discounted
+        '
+        Me.num_discounted.Enabled = False
+        Me.num_discounted.Font = New System.Drawing.Font("HGPGothicE", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.num_discounted.Location = New System.Drawing.Point(8, 20)
+        Me.num_discounted.Name = "num_discounted"
+        Me.num_discounted.Size = New System.Drawing.Size(55, 20)
+        Me.num_discounted.TabIndex = 196
+        '
+        'Panel27
+        '
+        Me.Panel27.BackColor = System.Drawing.Color.Transparent
+        Me.Panel27.Controls.Add(Me.dc2)
+        Me.Panel27.Controls.Add(Me.dc1)
+        Me.Panel27.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Panel27.Location = New System.Drawing.Point(248, 419)
+        Me.Panel27.Name = "Panel27"
+        Me.Panel27.Size = New System.Drawing.Size(145, 47)
+        Me.Panel27.TabIndex = 251
+        '
+        'dc2
+        '
+        Me.dc2.AutoSize = True
+        Me.dc2.Font = New System.Drawing.Font("HGPGothicE", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.dc2.Location = New System.Drawing.Point(8, 24)
+        Me.dc2.Name = "dc2"
+        Me.dc2.Size = New System.Drawing.Size(104, 15)
+        Me.dc2.TabIndex = 122
+        Me.dc2.TabStop = True
+        Me.dc2.Text = "Senior Citizen"
+        Me.dc2.UseVisualStyleBackColor = True
+        '
+        'dc1
+        '
+        Me.dc1.AutoSize = True
+        Me.dc1.Font = New System.Drawing.Font("HGPGothicE", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.dc1.Location = New System.Drawing.Point(8, 3)
+        Me.dc1.Name = "dc1"
+        Me.dc1.Size = New System.Drawing.Size(47, 15)
+        Me.dc1.TabIndex = 121
+        Me.dc1.TabStop = True
+        Me.dc1.Text = "PWD"
+        Me.dc1.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label4.Location = New System.Drawing.Point(248, 402)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(142, 11)
+        Me.Label4.TabIndex = 261
+        Me.Label4.Text = "20% discount if applicable"
+        '
+        'num_customer
+        '
+        Me.num_customer.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.num_customer.Location = New System.Drawing.Point(194, 431)
+        Me.num_customer.Name = "num_customer"
+        Me.num_customer.Size = New System.Drawing.Size(48, 18)
+        Me.num_customer.TabIndex = 260
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label5.Location = New System.Drawing.Point(35, 435)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(90, 11)
+        Me.Label5.TabIndex = 259
+        Me.Label5.Text = "No. Of Customer"
+        '
+        'Costumer_name
+        '
+        Me.Costumer_name.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Costumer_name.Location = New System.Drawing.Point(126, 405)
+        Me.Costumer_name.Name = "Costumer_name"
+        Me.Costumer_name.Size = New System.Drawing.Size(116, 18)
+        Me.Costumer_name.TabIndex = 258
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label6.Location = New System.Drawing.Point(35, 405)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(45, 16)
+        Me.Label6.TabIndex = 257
+        Me.Label6.Text = "Name"
+        '
+        'sub_tot
+        '
+        Me.sub_tot.Enabled = False
+        Me.sub_tot.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.sub_tot.Location = New System.Drawing.Point(126, 457)
+        Me.sub_tot.Name = "sub_tot"
+        Me.sub_tot.Size = New System.Drawing.Size(116, 18)
+        Me.sub_tot.TabIndex = 255
+        '
+        'Label86
+        '
+        Me.Label86.AutoSize = True
+        Me.Label86.BackColor = System.Drawing.Color.Transparent
+        Me.Label86.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label86.Location = New System.Drawing.Point(35, 561)
+        Me.Label86.Name = "Label86"
+        Me.Label86.Size = New System.Drawing.Size(61, 16)
+        Me.Label86.TabIndex = 254
+        Me.Label86.Text = "Change"
+        '
+        'Label85
+        '
+        Me.Label85.AutoSize = True
+        Me.Label85.BackColor = System.Drawing.Color.Transparent
+        Me.Label85.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label85.Location = New System.Drawing.Point(35, 535)
+        Me.Label85.Name = "Label85"
+        Me.Label85.Size = New System.Drawing.Size(38, 16)
+        Me.Label85.TabIndex = 253
+        Me.Label85.Text = "Paid"
+        '
+        'Label84
+        '
+        Me.Label84.AutoSize = True
+        Me.Label84.BackColor = System.Drawing.Color.Transparent
+        Me.Label84.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label84.Location = New System.Drawing.Point(35, 457)
+        Me.Label84.Name = "Label84"
+        Me.Label84.Size = New System.Drawing.Size(69, 16)
+        Me.Label84.TabIndex = 252
+        Me.Label84.Text = "Subtotal"
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.ForeColor = System.Drawing.Color.Orange
+        Me.Button1.Location = New System.Drawing.Point(241, 306)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(91, 23)
+        Me.Button1.TabIndex = 249
+        Me.Button1.Text = "REMOVE"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.ForeColor = System.Drawing.Color.Orange
+        Me.Label2.Location = New System.Drawing.Point(177, 359)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(126, 24)
+        Me.Label2.TabIndex = 248
+        Me.Label2.Text = "PAYMENT"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = System.Drawing.Color.Orange
+        Me.Label1.Location = New System.Drawing.Point(189, 10)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(103, 24)
+        Me.Label1.TabIndex = 23
+        Me.Label1.Text = "ORDERS"
+        '
+        'ListView1
+        '
+        Me.ListView1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Column_qty, Me.Column_Desc, Me.Column_Price})
+        Me.ListView1.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        ListViewItem1.StateImageIndex = 0
+        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
+        Me.ListView1.Location = New System.Drawing.Point(0, 37)
+        Me.ListView1.Name = "ListView1"
+        Me.ListView1.Size = New System.Drawing.Size(465, 264)
+        Me.ListView1.TabIndex = 247
+        Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.Details
+        '
+        'Column_qty
+        '
+        Me.Column_qty.Text = "Qty"
+        Me.Column_qty.Width = 50
+        '
+        'Column_Desc
+        '
+        Me.Column_Desc.Text = "Description"
+        Me.Column_Desc.Width = 250
+        '
+        'Column_Price
+        '
+        Me.Column_Price.Text = "Price"
+        Me.Column_Price.Width = 150
         '
         'Form1
         '
@@ -1238,7 +1646,9 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Burger_fin.My.Resources.Resources.mblogo
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(999, 1064)
+        Me.ClientSize = New System.Drawing.Size(1483, 1064)
+        Me.Controls.Add(Me.Panel8)
+        Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel5)
@@ -1283,102 +1693,143 @@ Partial Class Form1
         Me.Panel7.PerformLayout()
         CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel8.PerformLayout()
+        Me.Panel28.ResumeLayout(False)
+        Me.Panel28.PerformLayout()
+        Me.Panel27.ResumeLayout(False)
+        Me.Panel27.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Bacon_Cheese As Label
+    Friend WithEvents Black_Pepper As Label
+    Friend WithEvents Bacon_Cheese_qty As TextBox
+    Friend WithEvents Black_Pepper_qty As TextBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Label16 As Label
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents Label17 As Label
-    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents Baconnaise_Chicken_but As Button
+    Friend WithEvents Beef_Shawarma_but As Button
+    Friend WithEvents Beef_Shawarma As Label
+    Friend WithEvents Baconnaise_Chicken_qty As TextBox
+    Friend WithEvents Baconnaise_Chicken As Label
+    Friend WithEvents Beef_Shawarma_qty As TextBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Black_Pepper_but As Button
+    Friend WithEvents Bacon_Cheese_but As Button
     Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents Button5 As Button
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label3 As Label
+    Friend WithEvents Veggie_Premuim_but As Button
+    Friend WithEvents Veggie_Premuim_qty As TextBox
+    Friend WithEvents Veggie_Premuim As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label8 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Button9 As Button
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents Label7 As Label
+    Friend WithEvents Cheesy_Burger_qty As TextBox
+    Friend WithEvents Double_Cheesy_Burger_but As Button
+    Friend WithEvents Double_Cheesy_Burger As Label
+    Friend WithEvents Cheesy_Burger_but As Button
+    Friend WithEvents Double_Cheesy_Burger_qty As TextBox
+    Friend WithEvents Cheesy_Burger As Label
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Button7 As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label4 As Label
+    Friend WithEvents Minute_Burger_qty As TextBox
+    Friend WithEvents Double_Minute_Burger_but As Button
+    Friend WithEvents Double_Minute_Burger As Label
+    Friend WithEvents Minute_Burger_but As Button
+    Friend WithEvents Double_Minute_Burger_qty As TextBox
+    Friend WithEvents Minute_Burger As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label9 As Label
     Friend WithEvents PictureBox12 As PictureBox
     Friend WithEvents PictureBox13 As PictureBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Button13 As Button
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents Label13 As Label
+    Friend WithEvents Chilicon_Cheese_qty As TextBox
+    Friend WithEvents Cheesy_Dog_but As Button
+    Friend WithEvents Cheesy_Dog As Label
+    Friend WithEvents Chilicon_Cheese_but As Button
+    Friend WithEvents Cheesy_Dog_qty As TextBox
+    Friend WithEvents Chilicon_Cheese As Label
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Label10 As Label
     Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents PictureBox11 As PictureBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Button11 As Button
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents Label14 As Label
+    Friend WithEvents Double_Chicken_Time_qty As TextBox
+    Friend WithEvents Chicken_Time_but As Button
+    Friend WithEvents Chicken_Time As Label
+    Friend WithEvents Double_Chicken_Time_but As Button
+    Friend WithEvents Chicken_Time_qty As TextBox
+    Friend WithEvents Double_Chicken_Time As Label
     Friend WithEvents Panel5 As Panel
     Friend WithEvents PictureBox14 As PictureBox
     Friend WithEvents PictureBox16 As PictureBox
     Friend WithEvents PictureBox17 As PictureBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Button17 As Button
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents Label22 As Label
+    Friend WithEvents Iced_Choco_qty As TextBox
+    Friend WithEvents Hot_Choco_but As Button
+    Friend WithEvents Hot_Choco As Label
+    Friend WithEvents Krazy_Winter_but As Button
+    Friend WithEvents Hot_Choco_qty As TextBox
+    Friend WithEvents Krazy_Winter As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents PictureBox15 As PictureBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Button15 As Button
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents Label20 As Label
+    Friend WithEvents Calamantea_qty As TextBox
+    Friend WithEvents Iced_Choco_but As Button
+    Friend WithEvents Iced_Choco As Label
+    Friend WithEvents Calamantea_but As Button
+    Friend WithEvents Krazy_Winter_qty As TextBox
+    Friend WithEvents Calamantea As Label
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Label23 As Label
     Friend WithEvents PictureBox19 As PictureBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Label25 As Label
+    Friend WithEvents Nachos_qty As TextBox
+    Friend WithEvents Nachos_but As Button
+    Friend WithEvents Nachos As Label
     Friend WithEvents Panel7 As Panel
     Friend WithEvents Label24 As Label
     Friend WithEvents PictureBox18 As PictureBox
     Friend WithEvents PictureBox20 As PictureBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Button20 As Button
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents Label27 As Label
+    Friend WithEvents Barkada_qty As TextBox
+    Friend WithEvents Animeal_but As Button
+    Friend WithEvents Animeal As Label
+    Friend WithEvents Barkada_but As Button
+    Friend WithEvents Animeal_qty As TextBox
+    Friend WithEvents Barkada As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Proceed_but As Button
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents sukli As TextBox
+    Friend WithEvents bayad As TextBox
+    Friend WithEvents tot_due As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents vat As TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Panel28 As Panel
+    Friend WithEvents Label12 As Label
+    Friend WithEvents discounted_amount As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents num_discounted As TextBox
+    Friend WithEvents Panel27 As Panel
+    Friend WithEvents dc2 As RadioButton
+    Friend WithEvents dc1 As RadioButton
+    Friend WithEvents Label4 As Label
+    Friend WithEvents num_customer As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Costumer_name As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents sub_tot As TextBox
+    Friend WithEvents Label86 As Label
+    Friend WithEvents Label85 As Label
+    Friend WithEvents Label84 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents ListView1 As ListView
+    Friend WithEvents Column_qty As ColumnHeader
+    Friend WithEvents Column_Desc As ColumnHeader
+    Friend WithEvents Column_Price As ColumnHeader
+    Friend WithEvents Button2 As Button
 End Class
