@@ -1,7 +1,7 @@
 ﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox
 
-Public Class Form1
+Public Class Form2
     Private Sub Bacon_Cheese_but_Click(sender As Object, e As EventArgs) Handles Bacon_Cheese_but.Click
         Dim qty, price As Integer
         Dim label As String
@@ -300,7 +300,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Form2.Show()
+        Form1.Show()
         Me.Hide()
     End Sub
 End Class

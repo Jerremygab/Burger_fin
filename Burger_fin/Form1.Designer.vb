@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("")
         Me.Bacon_Cheese = New System.Windows.Forms.Label()
         Me.Black_Pepper = New System.Windows.Forms.Label()
         Me.Bacon_Cheese_qty = New System.Windows.Forms.TextBox()
@@ -151,6 +151,7 @@ Partial Class Form1
         Me.Column_qty = New System.Windows.Forms.ColumnHeader()
         Me.Column_Desc = New System.Windows.Forms.ColumnHeader()
         Me.Column_Price = New System.Windows.Forms.ColumnHeader()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1616,8 +1617,8 @@ Partial Class Form1
         Me.ListView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Column_qty, Me.Column_Desc, Me.Column_Price})
         Me.ListView1.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        ListViewItem1.StateImageIndex = 0
-        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
+        ListViewItem2.StateImageIndex = 0
+        Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem2})
         Me.ListView1.Location = New System.Drawing.Point(0, 37)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(465, 264)
@@ -1640,6 +1641,19 @@ Partial Class Form1
         Me.Column_Price.Text = "Price"
         Me.Column_Price.Width = 150
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.Font = New System.Drawing.Font("HGPSoeiKakupoptai", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button3.ForeColor = System.Drawing.Color.Orange
+        Me.Button3.Location = New System.Drawing.Point(1380, 12)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(91, 23)
+        Me.Button3.TabIndex = 270
+        Me.Button3.Text = "UI 2"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -1647,6 +1661,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.Burger_fin.My.Resources.Resources.mblogo
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1483, 1064)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Panel8)
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Panel7)
@@ -1832,4 +1847,5 @@ Partial Class Form1
     Friend WithEvents Column_Desc As ColumnHeader
     Friend WithEvents Column_Price As ColumnHeader
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
 End Class
