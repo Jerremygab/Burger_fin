@@ -247,26 +247,28 @@ Public Class Form2
         Next
     End Sub
 
-    Private Sub num_discounted_MouseLeave(sender As Object, e As EventArgs) Handles num_discounted.MouseLeave
+    Private Sub num_discounted_Leave(sender As Object, e As EventArgs) Handles num_discounted.Leave
         Dim noD, noC As Integer
         noC = Val(num_customer.Text)
         noD = Val(num_discounted.Text)
 
         If noD > noC Then
-            MsgBox("Invalid Number")
-
+            MsgBox("Invalid Amount of Discounted")
         End If
+
         Dim disc, due As Single
         Dim no_discount As Integer
+        Dim totalwithdisc As Decimal
 
-        due = Val(sub_tot.Text)
+        totalwithdisc = Val(tot_due.Text)
+        due = Val(sub_tot.Text) + Val(vat.Text)
         no_discount = Val(num_discounted.Text)
 
         If dc1.Checked Or dc2.Checked Then
-            disc = (((due * 0.2) - Val(vat.Text)) * no_discount)
+            disc = ((due * 0.2) * no_discount)
         End If
 
-
+        tot_due.Text = totalwithdisc - disc
         discounted_amount.Text = disc
     End Sub
 
@@ -277,12 +279,12 @@ Public Class Form2
 
     End Sub
 
-    Private Sub bayad_MouseLeave(sender As Object, e As EventArgs) Handles bayad.MouseLeave
+    Private Sub bayad_Leave(sender As Object, e As EventArgs) Handles bayad.Leave
         Dim due, binayad As Single
         due = Val(tot_due.Text)
         binayad = Val(bayad.Text)
         If due > binayad Then
-            MsgBox("Invalid Amount")
+            MsgBox("Please Input Valid Amount")
         End If
         sukli.Text = (Val(bayad.Text) - Val(tot_due.Text)) + Val(discounted_amount.Text)
     End Sub
